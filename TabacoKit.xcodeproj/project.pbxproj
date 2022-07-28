@@ -9,12 +9,112 @@
 /* Begin PBXBuildFile section */
 		40C60CBE2892366300120C59 /* TabacoKit.docc in Sources */ = {isa = PBXBuildFile; fileRef = 40C60CBD2892366300120C59 /* TabacoKit.docc */; };
 		40C60CBF2892366300120C59 /* TabacoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60CBC2892366300120C59 /* TabacoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40C60D3C2892970500120C59 /* TBCFileCombines.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D3B2892970500120C59 /* TBCFileCombines.h */; };
+		40C60D732892971000120C59 /* UITableView+SectionPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D3E2892971000120C59 /* UITableView+SectionPath.h */; };
+		40C60D742892971000120C59 /* UITextView+InputEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D3F2892971000120C59 /* UITextView+InputEmoji.m */; };
+		40C60D752892971000120C59 /* UIButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D402892971000120C59 /* UIButton+CountDown.m */; };
+		40C60D762892971000120C59 /* UIColor+HexColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D412892971000120C59 /* UIColor+HexColor.m */; };
+		40C60D772892971000120C59 /* UIImage+Color.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D422892971000120C59 /* UIImage+Color.h */; };
+		40C60D782892971000120C59 /* NSObject+Alert.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D432892971000120C59 /* NSObject+Alert.h */; };
+		40C60D792892971000120C59 /* UILabel+LabelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D442892971000120C59 /* UILabel+LabelTool.m */; };
+		40C60D7A2892971000120C59 /* UIViewController+Cate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D452892971000120C59 /* UIViewController+Cate.m */; };
+		40C60D7B2892971000120C59 /* NSData+PCM.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D462892971000120C59 /* NSData+PCM.h */; };
+		40C60D7C2892971000120C59 /* NSString+StringTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D472892971000120C59 /* NSString+StringTool.m */; };
+		40C60D7D2892971000120C59 /* UIView+Shadow.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D482892971000120C59 /* UIView+Shadow.m */; };
+		40C60D7E2892971000120C59 /* UICollectionView+CollTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D492892971000120C59 /* UICollectionView+CollTool.m */; };
+		40C60D7F2892971000120C59 /* UITextView+InputEmoji.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D4A2892971000120C59 /* UITextView+InputEmoji.h */; };
+		40C60D802892971000120C59 /* UITableView+SectionPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D4B2892971000120C59 /* UITableView+SectionPath.m */; };
+		40C60D812892971000120C59 /* UIButton+CountDown.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D4C2892971000120C59 /* UIButton+CountDown.h */; };
+		40C60D822892971000120C59 /* NSData+PCM.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D4D2892971000120C59 /* NSData+PCM.m */; };
+		40C60D832892971000120C59 /* UIViewController+Cate.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D4E2892971000120C59 /* UIViewController+Cate.h */; };
+		40C60D842892971000120C59 /* UILabel+LabelTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D4F2892971000120C59 /* UILabel+LabelTool.h */; };
+		40C60D852892971000120C59 /* NSObject+Alert.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D502892971000120C59 /* NSObject+Alert.m */; };
+		40C60D862892971000120C59 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D512892971000120C59 /* UIImage+Color.m */; };
+		40C60D872892971000120C59 /* UIColor+HexColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D522892971000120C59 /* UIColor+HexColor.h */; };
+		40C60D882892971000120C59 /* UICollectionView+CollTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D532892971000120C59 /* UICollectionView+CollTool.h */; };
+		40C60D892892971000120C59 /* NSString+StringTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D542892971000120C59 /* NSString+StringTool.h */; };
+		40C60D8A2892971000120C59 /* UIView+Shadow.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D552892971000120C59 /* UIView+Shadow.h */; };
+		40C60D8B2892971000120C59 /* MBTimerSchedules.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D572892971000120C59 /* MBTimerSchedules.h */; };
+		40C60D8C2892971000120C59 /* TBCStatusBarNotification.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D582892971000120C59 /* TBCStatusBarNotification.h */; };
+		40C60D8D2892971000120C59 /* TBCUntil.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D592892971000120C59 /* TBCUntil.m */; };
+		40C60D8E2892971000120C59 /* CacheTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D5A2892971000120C59 /* CacheTool.h */; };
+		40C60D8F2892971000120C59 /* TBCUntil.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D5B2892971000120C59 /* TBCUntil.h */; };
+		40C60D902892971000120C59 /* TBCStatusBarNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D5C2892971000120C59 /* TBCStatusBarNotification.m */; };
+		40C60D912892971000120C59 /* MBTimerSchedules.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D5D2892971000120C59 /* MBTimerSchedules.m */; };
+		40C60D922892971000120C59 /* CacheTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D5E2892971000120C59 /* CacheTool.m */; };
+		40C60D932892971000120C59 /* TBCMarqueeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D602892971000120C59 /* TBCMarqueeLabel.h */; };
+		40C60D942892971000120C59 /* TBCPlaceholderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D612892971000120C59 /* TBCPlaceholderTextView.h */; };
+		40C60D952892971000120C59 /* JLKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D632892971000120C59 /* JLKeyboardView.m */; };
+		40C60D962892971000120C59 /* JLTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D642892971000120C59 /* JLTextField.h */; };
+		40C60D972892971000120C59 /* JLTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D652892971000120C59 /* JLTextField.m */; };
+		40C60D982892971000120C59 /* JLKeyboardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D662892971000120C59 /* JLKeyboardView.h */; };
+		40C60D992892971000120C59 /* TBCMarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D672892971000120C59 /* TBCMarqueeLabel.m */; };
+		40C60D9A2892971000120C59 /* TBCNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D692892971000120C59 /* TBCNavigationController.h */; };
+		40C60D9B2892971000120C59 /* TBCNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D6A2892971000120C59 /* TBCNavigationBar.m */; };
+		40C60D9C2892971000120C59 /* UIViewController+TBC.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D6B2892971000120C59 /* UIViewController+TBC.h */; };
+		40C60D9D2892971000120C59 /* TBCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D6C2892971000120C59 /* TBCNavigationController.m */; };
+		40C60D9E2892971000120C59 /* UIViewController+TBC.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D6D2892971000120C59 /* UIViewController+TBC.m */; };
+		40C60D9F2892971000120C59 /* TBCNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D6E2892971000120C59 /* TBCNavigationBar.h */; };
+		40C60DA02892971000120C59 /* SYNoticeBrowseLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D702892971000120C59 /* SYNoticeBrowseLabel.m */; };
+		40C60DA12892971000120C59 /* SYNoticeBrowseLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C60D712892971000120C59 /* SYNoticeBrowseLabel.h */; };
+		40C60DA22892971000120C59 /* TBCPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C60D722892971000120C59 /* TBCPlaceholderTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		40C60CB92892366300120C59 /* TabacoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TabacoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C60CBC2892366300120C59 /* TabacoKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabacoKit.h; sourceTree = "<group>"; };
 		40C60CBD2892366300120C59 /* TabacoKit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TabacoKit.docc; sourceTree = "<group>"; };
+		40C60CDD289259B600120C59 /* TBCdefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBCdefines.h; sourceTree = "<group>"; };
+		40C60CDE28925A1A00120C59 /* TBCColorMarcos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBCColorMarcos.h; sourceTree = "<group>"; };
+		40C60D3B2892970500120C59 /* TBCFileCombines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCFileCombines.h; sourceTree = "<group>"; };
+		40C60D3E2892971000120C59 /* UITableView+SectionPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SectionPath.h"; sourceTree = "<group>"; };
+		40C60D3F2892971000120C59 /* UITextView+InputEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+InputEmoji.m"; sourceTree = "<group>"; };
+		40C60D402892971000120C59 /* UIButton+CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDown.m"; sourceTree = "<group>"; };
+		40C60D412892971000120C59 /* UIColor+HexColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexColor.m"; sourceTree = "<group>"; };
+		40C60D422892971000120C59 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		40C60D432892971000120C59 /* NSObject+Alert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Alert.h"; sourceTree = "<group>"; };
+		40C60D442892971000120C59 /* UILabel+LabelTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LabelTool.m"; sourceTree = "<group>"; };
+		40C60D452892971000120C59 /* UIViewController+Cate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Cate.m"; sourceTree = "<group>"; };
+		40C60D462892971000120C59 /* NSData+PCM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+PCM.h"; sourceTree = "<group>"; };
+		40C60D472892971000120C59 /* NSString+StringTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringTool.m"; sourceTree = "<group>"; };
+		40C60D482892971000120C59 /* UIView+Shadow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Shadow.m"; sourceTree = "<group>"; };
+		40C60D492892971000120C59 /* UICollectionView+CollTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+CollTool.m"; sourceTree = "<group>"; };
+		40C60D4A2892971000120C59 /* UITextView+InputEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+InputEmoji.h"; sourceTree = "<group>"; };
+		40C60D4B2892971000120C59 /* UITableView+SectionPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SectionPath.m"; sourceTree = "<group>"; };
+		40C60D4C2892971000120C59 /* UIButton+CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDown.h"; sourceTree = "<group>"; };
+		40C60D4D2892971000120C59 /* NSData+PCM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+PCM.m"; sourceTree = "<group>"; };
+		40C60D4E2892971000120C59 /* UIViewController+Cate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Cate.h"; sourceTree = "<group>"; };
+		40C60D4F2892971000120C59 /* UILabel+LabelTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LabelTool.h"; sourceTree = "<group>"; };
+		40C60D502892971000120C59 /* NSObject+Alert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Alert.m"; sourceTree = "<group>"; };
+		40C60D512892971000120C59 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		40C60D522892971000120C59 /* UIColor+HexColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexColor.h"; sourceTree = "<group>"; };
+		40C60D532892971000120C59 /* UICollectionView+CollTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+CollTool.h"; sourceTree = "<group>"; };
+		40C60D542892971000120C59 /* NSString+StringTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringTool.h"; sourceTree = "<group>"; };
+		40C60D552892971000120C59 /* UIView+Shadow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Shadow.h"; sourceTree = "<group>"; };
+		40C60D572892971000120C59 /* MBTimerSchedules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBTimerSchedules.h; sourceTree = "<group>"; };
+		40C60D582892971000120C59 /* TBCStatusBarNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCStatusBarNotification.h; sourceTree = "<group>"; };
+		40C60D592892971000120C59 /* TBCUntil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCUntil.m; sourceTree = "<group>"; };
+		40C60D5A2892971000120C59 /* CacheTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheTool.h; sourceTree = "<group>"; };
+		40C60D5B2892971000120C59 /* TBCUntil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCUntil.h; sourceTree = "<group>"; };
+		40C60D5C2892971000120C59 /* TBCStatusBarNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCStatusBarNotification.m; sourceTree = "<group>"; };
+		40C60D5D2892971000120C59 /* MBTimerSchedules.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBTimerSchedules.m; sourceTree = "<group>"; };
+		40C60D5E2892971000120C59 /* CacheTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheTool.m; sourceTree = "<group>"; };
+		40C60D602892971000120C59 /* TBCMarqueeLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCMarqueeLabel.h; sourceTree = "<group>"; };
+		40C60D612892971000120C59 /* TBCPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCPlaceholderTextView.h; sourceTree = "<group>"; };
+		40C60D632892971000120C59 /* JLKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLKeyboardView.m; sourceTree = "<group>"; };
+		40C60D642892971000120C59 /* JLTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTextField.h; sourceTree = "<group>"; };
+		40C60D652892971000120C59 /* JLTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTextField.m; sourceTree = "<group>"; };
+		40C60D662892971000120C59 /* JLKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLKeyboardView.h; sourceTree = "<group>"; };
+		40C60D672892971000120C59 /* TBCMarqueeLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCMarqueeLabel.m; sourceTree = "<group>"; };
+		40C60D692892971000120C59 /* TBCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCNavigationController.h; sourceTree = "<group>"; };
+		40C60D6A2892971000120C59 /* TBCNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCNavigationBar.m; sourceTree = "<group>"; };
+		40C60D6B2892971000120C59 /* UIViewController+TBC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+TBC.h"; sourceTree = "<group>"; };
+		40C60D6C2892971000120C59 /* TBCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCNavigationController.m; sourceTree = "<group>"; };
+		40C60D6D2892971000120C59 /* UIViewController+TBC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+TBC.m"; sourceTree = "<group>"; };
+		40C60D6E2892971000120C59 /* TBCNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCNavigationBar.h; sourceTree = "<group>"; };
+		40C60D702892971000120C59 /* SYNoticeBrowseLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYNoticeBrowseLabel.m; sourceTree = "<group>"; };
+		40C60D712892971000120C59 /* SYNoticeBrowseLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYNoticeBrowseLabel.h; sourceTree = "<group>"; };
+		40C60D722892971000120C59 /* TBCPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCPlaceholderTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,9 +148,108 @@
 			isa = PBXGroup;
 			children = (
 				40C60CBC2892366300120C59 /* TabacoKit.h */,
+				40C60CDD289259B600120C59 /* TBCdefines.h */,
+				40C60D3B2892970500120C59 /* TBCFileCombines.h */,
+				40C60CDE28925A1A00120C59 /* TBCColorMarcos.h */,
+				40C60D3D2892971000120C59 /* Category */,
+				40C60D562892971000120C59 /* Tool */,
+				40C60D5F2892971000120C59 /* View */,
 				40C60CBD2892366300120C59 /* TabacoKit.docc */,
 			);
 			path = TabacoKit;
+			sourceTree = "<group>";
+		};
+		40C60D3D2892971000120C59 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				40C60D3E2892971000120C59 /* UITableView+SectionPath.h */,
+				40C60D3F2892971000120C59 /* UITextView+InputEmoji.m */,
+				40C60D402892971000120C59 /* UIButton+CountDown.m */,
+				40C60D412892971000120C59 /* UIColor+HexColor.m */,
+				40C60D422892971000120C59 /* UIImage+Color.h */,
+				40C60D432892971000120C59 /* NSObject+Alert.h */,
+				40C60D442892971000120C59 /* UILabel+LabelTool.m */,
+				40C60D452892971000120C59 /* UIViewController+Cate.m */,
+				40C60D462892971000120C59 /* NSData+PCM.h */,
+				40C60D472892971000120C59 /* NSString+StringTool.m */,
+				40C60D482892971000120C59 /* UIView+Shadow.m */,
+				40C60D492892971000120C59 /* UICollectionView+CollTool.m */,
+				40C60D4A2892971000120C59 /* UITextView+InputEmoji.h */,
+				40C60D4B2892971000120C59 /* UITableView+SectionPath.m */,
+				40C60D4C2892971000120C59 /* UIButton+CountDown.h */,
+				40C60D4D2892971000120C59 /* NSData+PCM.m */,
+				40C60D4E2892971000120C59 /* UIViewController+Cate.h */,
+				40C60D4F2892971000120C59 /* UILabel+LabelTool.h */,
+				40C60D502892971000120C59 /* NSObject+Alert.m */,
+				40C60D512892971000120C59 /* UIImage+Color.m */,
+				40C60D522892971000120C59 /* UIColor+HexColor.h */,
+				40C60D532892971000120C59 /* UICollectionView+CollTool.h */,
+				40C60D542892971000120C59 /* NSString+StringTool.h */,
+				40C60D552892971000120C59 /* UIView+Shadow.h */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		40C60D562892971000120C59 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				40C60D572892971000120C59 /* MBTimerSchedules.h */,
+				40C60D582892971000120C59 /* TBCStatusBarNotification.h */,
+				40C60D592892971000120C59 /* TBCUntil.m */,
+				40C60D5A2892971000120C59 /* CacheTool.h */,
+				40C60D5B2892971000120C59 /* TBCUntil.h */,
+				40C60D5C2892971000120C59 /* TBCStatusBarNotification.m */,
+				40C60D5D2892971000120C59 /* MBTimerSchedules.m */,
+				40C60D5E2892971000120C59 /* CacheTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		40C60D5F2892971000120C59 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40C60D602892971000120C59 /* TBCMarqueeLabel.h */,
+				40C60D672892971000120C59 /* TBCMarqueeLabel.m */,
+				40C60D612892971000120C59 /* TBCPlaceholderTextView.h */,
+				40C60D722892971000120C59 /* TBCPlaceholderTextView.m */,
+				40C60D622892971000120C59 /* LettersKeyboard */,
+				40C60D682892971000120C59 /* Nav */,
+				40C60D6F2892971000120C59 /* NoticeLabel */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40C60D622892971000120C59 /* LettersKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				40C60D642892971000120C59 /* JLTextField.h */,
+				40C60D652892971000120C59 /* JLTextField.m */,
+				40C60D662892971000120C59 /* JLKeyboardView.h */,
+				40C60D632892971000120C59 /* JLKeyboardView.m */,
+			);
+			path = LettersKeyboard;
+			sourceTree = "<group>";
+		};
+		40C60D682892971000120C59 /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				40C60D692892971000120C59 /* TBCNavigationController.h */,
+				40C60D6A2892971000120C59 /* TBCNavigationBar.m */,
+				40C60D6B2892971000120C59 /* UIViewController+TBC.h */,
+				40C60D6C2892971000120C59 /* TBCNavigationController.m */,
+				40C60D6D2892971000120C59 /* UIViewController+TBC.m */,
+				40C60D6E2892971000120C59 /* TBCNavigationBar.h */,
+			);
+			path = Nav;
+			sourceTree = "<group>";
+		};
+		40C60D6F2892971000120C59 /* NoticeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				40C60D702892971000120C59 /* SYNoticeBrowseLabel.m */,
+				40C60D712892971000120C59 /* SYNoticeBrowseLabel.h */,
+			);
+			path = NoticeLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -60,7 +259,32 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C60D842892971000120C59 /* UILabel+LabelTool.h in Headers */,
+				40C60D882892971000120C59 /* UICollectionView+CollTool.h in Headers */,
+				40C60D892892971000120C59 /* NSString+StringTool.h in Headers */,
+				40C60D8F2892971000120C59 /* TBCUntil.h in Headers */,
+				40C60D982892971000120C59 /* JLKeyboardView.h in Headers */,
+				40C60D812892971000120C59 /* UIButton+CountDown.h in Headers */,
+				40C60D772892971000120C59 /* UIImage+Color.h in Headers */,
+				40C60D9F2892971000120C59 /* TBCNavigationBar.h in Headers */,
+				40C60D782892971000120C59 /* NSObject+Alert.h in Headers */,
+				40C60D7B2892971000120C59 /* NSData+PCM.h in Headers */,
+				40C60D7F2892971000120C59 /* UITextView+InputEmoji.h in Headers */,
+				40C60D932892971000120C59 /* TBCMarqueeLabel.h in Headers */,
+				40C60D962892971000120C59 /* JLTextField.h in Headers */,
+				40C60D3C2892970500120C59 /* TBCFileCombines.h in Headers */,
+				40C60D9C2892971000120C59 /* UIViewController+TBC.h in Headers */,
+				40C60D8C2892971000120C59 /* TBCStatusBarNotification.h in Headers */,
+				40C60D8B2892971000120C59 /* MBTimerSchedules.h in Headers */,
+				40C60D8A2892971000120C59 /* UIView+Shadow.h in Headers */,
+				40C60D832892971000120C59 /* UIViewController+Cate.h in Headers */,
+				40C60D872892971000120C59 /* UIColor+HexColor.h in Headers */,
+				40C60D732892971000120C59 /* UITableView+SectionPath.h in Headers */,
+				40C60DA12892971000120C59 /* SYNoticeBrowseLabel.h in Headers */,
 				40C60CBF2892366300120C59 /* TabacoKit.h in Headers */,
+				40C60D9A2892971000120C59 /* TBCNavigationController.h in Headers */,
+				40C60D942892971000120C59 /* TBCPlaceholderTextView.h in Headers */,
+				40C60D8E2892971000120C59 /* CacheTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +356,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C60DA02892971000120C59 /* SYNoticeBrowseLabel.m in Sources */,
+				40C60D792892971000120C59 /* UILabel+LabelTool.m in Sources */,
+				40C60D9D2892971000120C59 /* TBCNavigationController.m in Sources */,
+				40C60DA22892971000120C59 /* TBCPlaceholderTextView.m in Sources */,
+				40C60D992892971000120C59 /* TBCMarqueeLabel.m in Sources */,
+				40C60D9E2892971000120C59 /* UIViewController+TBC.m in Sources */,
+				40C60D822892971000120C59 /* NSData+PCM.m in Sources */,
+				40C60D852892971000120C59 /* NSObject+Alert.m in Sources */,
+				40C60D7E2892971000120C59 /* UICollectionView+CollTool.m in Sources */,
 				40C60CBE2892366300120C59 /* TabacoKit.docc in Sources */,
+				40C60D762892971000120C59 /* UIColor+HexColor.m in Sources */,
+				40C60D7A2892971000120C59 /* UIViewController+Cate.m in Sources */,
+				40C60D7D2892971000120C59 /* UIView+Shadow.m in Sources */,
+				40C60D8D2892971000120C59 /* TBCUntil.m in Sources */,
+				40C60D9B2892971000120C59 /* TBCNavigationBar.m in Sources */,
+				40C60D972892971000120C59 /* JLTextField.m in Sources */,
+				40C60D7C2892971000120C59 /* NSString+StringTool.m in Sources */,
+				40C60D922892971000120C59 /* CacheTool.m in Sources */,
+				40C60D742892971000120C59 /* UITextView+InputEmoji.m in Sources */,
+				40C60D802892971000120C59 /* UITableView+SectionPath.m in Sources */,
+				40C60D902892971000120C59 /* TBCStatusBarNotification.m in Sources */,
+				40C60D912892971000120C59 /* MBTimerSchedules.m in Sources */,
+				40C60D752892971000120C59 /* UIButton+CountDown.m in Sources */,
+				40C60D862892971000120C59 /* UIImage+Color.m in Sources */,
+				40C60D952892971000120C59 /* JLKeyboardView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
