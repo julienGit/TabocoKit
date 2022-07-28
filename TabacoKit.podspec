@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
 	spec.author   = {"zy" => "15680075675@163.com"}
 	spec.platform = :ios, "9.0"
 	spec.ios.deployment_target = "9.0"
-	spec.source   = { :git => "" , :tag => ''}
+	spec.source   = { :git => "git@github.com:julienGit/TabocoKit.git" , :tag => '#{spec.version}'}
 	spec.static_framework = true
 	spec.pod_target_xcconfig = {
 		'ENABLE_BITCODE' => 'NO'
